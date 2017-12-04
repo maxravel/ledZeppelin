@@ -1,0 +1,92 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-decoration:none;
+    font-family: 'Macondo Swash Caps', cursive;
+}
+
+body{
+    background-color:black;
+    color:white;
+    text-align: center;
+}
+
+.topHeader{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:block;
+}
+
+ul li{
+    display:inline;
+    margin:15px;
+    font-family: 'Macondo Swash Caps', cursive;
+    color:white;
+    font-size: 25px;
+    
+}   
+
+ul li:hover{
+    color:red;
+}
+
+iframe{
+    display:block;
+    margin:auto;
+    padding:100px;
+}
+
+.fanStore{
+    background-color:white;
+    color:black;
+}
+
+.fanStore h2{
+    padding-top:20px;
+    font-size:30px;
+}
+
+.fanStore img{
+    max-width: 350px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+h2{
+    padding:55px;
+}
+
+.blog{
+    float:left;
+    width:60%;
+    height:600px;
+}
+
+#plane{
+    float:left;
+    width:180px;
+}
+
+.sidebar{
+    float:right;
+    width:40%;
+    background-color:red;
+    height:600px;
+}
+
+p{
+    padding:15px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
